@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+  <head>
+    <title>Expresso</title>
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "Exppresso, an e-commerce site that sells coffee beans">
+    <meta name = "author" content = "Kai Run Leong (S3862092), Kyriece(enter student number)">
+    <meta name = "keywords" content = "Coffee beans, e-commerce, Expresso">
+    <meta name = "viewport" content = "width=device_width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/test.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <script src="https://kit.fontawesome.com/20da3da519.js" crossorigin="anonymous"></script>
+    <style>
+      body,html{
+        margin: 0;
+        padding: 0;
+        font-family: "Inconsolata", sans-serif;
+      }
+      body{
+        height: 100vh;
+        width: 100vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <span class = "nav-icon">
+      <a href = "../php/Cart.php"><i class = "fas fa-cart-plus"></i></a>
+    </span>
+    <div>
+      <div class = div-logo>
+        <a href = "home.html">
+          <img src="../images/icons8-coffee-beans-96.png" alt="Free logo from icons8.com">
+        </a>
+      </div>
+      <div class = login-button-div>
+        <a href = "Login.html" class = login-button>Login</a>
+      </div>
+      <div class = register-button-div>
+        <a href = "Register.html" class = login-button>Register</a>
+      </div>
+      <div class = logout-button-div>
+        <a href = "../php/Logout.php" class = login-button>Logout</a>
+      </div>
+
+
+    </div>
+    <div class = "grid-container">
+      <div>
+        <a href = "home.html" class = "top_button">Home</a>
+      </div>
+      <div>
+        <a href = "About.html" class = "top_button">About</a>
+      </div>
+      <div>
+        <a href = "Products.html" class = "top_button">Product</a>
+      </div>
+      <div>
+        <a href = "ContactUs.html" class = "top_button">Contact Us</a>
+      </div>
+    </div>
+
+    <!--NAVIGATION BAR-->
+
+    <section class ="cart">
+        <div class="box-container">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                
+                <tr>
+                    <td>
+                      <div class = "cart-info">
+                        <img src="../images/Agro_Beans.jpg">
+                        <div>
+                          <p>Product Name</p>
+                          <small> Price: $30</small><br><br>
+                          <a href="#">Remove</a>
+                        </div>
+                      </div>
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$30.00</td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <div class = "cart-info">
+                      <img src="../images/Agro_Beans.jpg">
+                      <div>
+                        <p>Product Name</p>
+                        <small> Price: $30</small><br><br>
+                        <a href="#">Remove</a>
+                      </div>
+                    </div>
+                  </td>
+                  <td><input type="number" value="1"></td>
+                  <td>$30.00</td>
+              </tr>
+
+              <tr>
+                <td>
+                  <div class = "cart-info">
+                    <img src="../images/Agro_Beans.jpg">
+                    <div>
+                      <p>Product Name</p>
+                      <small> Price: $30</small><br><br>
+                      <a href="#">Remove</a>
+                    </div>
+                  </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$30.00</td>
+            </tr>
+                
+            </table>
+        </div>
+        <div class="total">
+          <table>
+            <tr>
+              <td>Total</td>
+              <td>$90.00</td>
+            </tr>
+            <tr>
+              <td>
+                <a href="#" style="padding-right: 10px;">Confirm Purchase</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+    </section>
+
+    <!--Cart-->
+
+</body>
+
+</html>
